@@ -5,10 +5,14 @@ background-color: lightgray;
 .container{
     width: 400px;
     height: 500px;
-    background-color:white;
+    background-color:rgb(168, 165, 165);
     border-radius: 20px;
     font-size:small;
     margin:auto;
+    padding-top: 30px;
+    position: relative;
+    top: 50vh;
+    transform:translate(0, -50%) 
 }
 #code{
     width: 350px;
@@ -19,8 +23,11 @@ background-color: lightgray;
 }
 h1{
     text-align: center;
+    color: rgb(4, 4, 77);
 }
 p{
     text-align: center;
     font-size: 15px;
+    color: lightgrey;
+    font-family: 'Outfit', sans-serif;
 }
